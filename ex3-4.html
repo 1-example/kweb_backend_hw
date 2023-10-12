@@ -1,0 +1,22 @@
+doctype html
+  <html>
+    <head>
+      <title>Login Page</title>
+    </head>
+    <body>
+        form(method='post', action='/login')
+          <div>
+            label Username:
+            input#username-input(name='username', type='text')
+          </div>
+          <div>
+            label Password:
+            input#password-input(name='password', type='password')
+          </div>
+          <div>
+            div Introduce yourself
+            textarea#introduction-input(name='introduction')
+          </div>
+        <button>(type='submit') Submit</button>
+    </body>
+  </html>
